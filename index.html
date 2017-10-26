@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Custom Chatbot Dashboard</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="/css/font-awesome.min.css"></link>
+    <link rel="stylesheet" href="/css/toastr.min.css"></link>
+    <link rel="stylesheet" href="/css/style.css"></link>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="col-lg-12">
+            <h1 class="page-header">Custom chatbot Dashboard</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4">
+                <div class="alert alert-info alert-primary bg-primary">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    Get reports
+                    <strong>give me reports</strong>
+                </div>
+                <div class="alert alert-info alert-primary bg-primary">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    contact info
+                    <strong>contact info or how do I contact your company </strong>
+                </div>
+                <div class="alert alert-info alert-primary bg-primary">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    contact info
+                    <strong>contact info or how do I contact your company </strong>
+                </div>
+                <div class="alert alert-info alert-primary bg-primary">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    Connect with live agent
+                    <strong>chat with a person </strong>
+                </div>
+                
+                <div class="alert alert-info alert-primary bg-primary">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    Delivery time
+                    <strong>when can I receive my order </strong>
+                </div>
+                <div class="alert alert-info alert-primary bg-primary">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    Refund request
+                    <strong>refund my purchase. Transaction id is 123 </strong>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="infoModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Reports</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <label>Hi, below is your report:</label>
+                        </p>
+                        <dl>
+                            <dt>
+                              Sale of products for <span id="platform">Today</span>
+                            </dt>
+                            <dd class="percentage percentage-11"><span class="text">Aticle: 11.33%</span></dd>
+                            <dd class="percentage percentage-49"><span class="text">Product Abc: 49.77%</span></dd>
+                            <dd class="percentage percentage-16"><span class="text">Product 123: 16.09%</span></dd>
+                            <dd class="percentage percentage-5"><span class="text">Item one: 5.41%</span></dd>
+                            <dd class="percentage percentage-2"><span class="text">Item two: 1.62%</span></dd>
+                            <dd class="percentage percentage-2"><span class="text">Item one three: 2%</span></dd>
+                          </dl>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bot-container">
+        <iframe
+        width="480"
+        height="620"
+        src="https://console.dialogflow.com/api-client/demo/embedded/ffe13aaf-a374-474b-8337-a7e8a9f64f85">
+    </div>
+    </iframe>
+    </div>
+    </div>
+    <script src="/js//socket.io-1.2.0.js"></script>
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/moment.min.js"></script>
+    <script src="/js/toastr.min.js"></script>
+    <script src="/js/app.js">
+
+    </script>
+</body>
+
+</html>

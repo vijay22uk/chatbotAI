@@ -1,0 +1,27 @@
+{
+  "name": "chat-ai",
+  "version": "1.0.0",
+  "description": "a chat boot server and webhook ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "socket.io": "^1.4.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijay22uk/chatbotAI.git"
+  },
+  "keywords": [
+    "chatbot"
+  ],
+  "author": "vijay22uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijay22uk/chatbotAI/issues"
+  },
+  "homepage": "https://github.com/vijay22uk/chatbotAI#readme"
+}

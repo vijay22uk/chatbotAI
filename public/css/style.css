@@ -1,0 +1,8 @@
+.bot-container{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+iframe{
+    border-left: 1px solid #efefef;
+}
